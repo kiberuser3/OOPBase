@@ -1,4 +1,29 @@
 fun main(args: Array<String>) {
+    var numbers = mutableListOf<Int>(5,6,7,8,9,0)
+    var plus = 0
+    for (i in )
+
+}
+fun listtask2(){
+    var numbers = mutableListOf<Int>(5,6,7)
+    for (i in 0..4) {
+        println(i)
+    }
+
+    for(i in numbers.indices) {
+        println(numbers[i])
+        numbers[i] = numbers[i] + 1
+    }
+}
+
+fun listtask() {
+    var city = listOf<String>("Омск","Москва","Томск")
+    println(city[2])
+    var names = mutableListOf<String>("Алексанрд","Егор")
+    names.add("Николай")
+    names.removeAt(1)
+    names.remove("")
+    var food = listOf<Int>(1,2,3)
 
 }
 
